@@ -161,7 +161,7 @@ print(p_val)
 
 Does this result roughly match that of the previous statistical test?
 
-> Comment: #Comment: Although the p-value is slightly lower, both results                       reject the null hypothesis.
+> Comment: #Comment: Although the p-value is slightly lower, both results reject the null hypothesis.
            #The experimental page seems to perform better
 
 ## Summary
