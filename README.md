@@ -53,15 +53,12 @@ experiment = df[df.group=='experiment'].pivot(index='id', columns='action', valu
 experiment = experiment.fillna(value=0)
 
 
-
 print("Sample sizes:\tControl: {}\tExperiment: {}".format(len(control), len(experiment)))
 print("Total Clicks:\tControl: {}\tExperiment: {}".format(control.click.sum(), experiment.click.sum()))
 print("Average click rate:\tControl: {}\tExperiment: {}".format(control.click.mean(), experiment.click.mean()))
 control.head()
 ```
-```python
-#Your code here
-```
+
 ```python
 import numpy as np
 import scipy.stats as stats
